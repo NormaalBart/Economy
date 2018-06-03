@@ -1,0 +1,38 @@
+noPlayer: "&8(&6Server&8)» &cPlayer not found!"
+balance: "&8(&6Balance&8)» &7Balance for &a{PLAYER} &7is &a{BALANCE}"
+playerNeverJoined: "&8(&6Server&8)» &cPlayer never joined the server!"
+gettingBalance: "&8(&6Balance&8)» &7Getting balance for '&a{PLAYER}&7'"
+
+readNextPage: "&7Type &a/{COMMAND} {PAGE} &7to read the next page."
+infoPages: "&7--- &aBalanceTop &7(&a{CURRENTPAGE}&7/&a{MAXPAGE}&7) --- "
+ordeningBalances: "&8(&6Balance&8)» &7Ordening balances... This may take a while"
+pageNotFound: "&8(&6Balance&8)» &7Page not found!"
+balTopFormat: "&7{NUMBER}&8. &7{PLAYER}&8: &7{MONEY}"
+
+wrongPayFormat: "&8(&6Balance&8)» &7Wrong usage: &c/pay (player) (amount)"
+notEnoughMoney: "&8(&6Balance&8)» &7You don't have enough money"
+
+noPermission: "&8(&6Server&8)» &7No permission!"
+
+money:
+  pay: "&8(&6Balance&8)» &7Sended &a{MONEY} &7to &a{PLAYER}"
+  receive: "&8(&6Balance&8)» &7You received &a{MONEY} &7from &a{PLAYER}" 
+eco:
+  moneySetSender: "&8(&6Economy&8)» &7Setted the money for &a{PLAYER} &7to &a{MONEY}"
+  moneySet: "&8(&6Balance&8)» &7Your money has been set to &a{MONEY}"
+  
+  moneyGiveSender: "&8(&6Economy&8)» &7Added &a{MONEY}&7 to &a{PLAYER}&7's account!"
+  moneyGive: "&8(&6Balance&8)» &7You received &a{MONEY}"
+  
+  moneyTakeSender: "&8(&6Economy&8)» &7Took &a{MONEY} &7from &a{PLAYER}&7's account!"
+  moneyTake: "&8(&6Balance&8)» &a{MONEY} &7is taken away from your account!"
+  
+  wrongFormat: "&8(&6Economy&8)» &7Wrong usage: &c/eco (set/take/give/reset) (player) (amount)"
+  
+migrate:
+  starting: "&8(&6Server&8)» &7Starting migrating..."
+  done: "&8(&6Server&8)» &7Migrating is done!"
+  error: "&8(&6Server&8)» &cAn error occured, please check logs!"
+  
+error: "&8(&6Server&8)» &7An error is occured while performing this command! Please contact a Developer!"
+no-uuid: "&8(&6Server&8)» &7UUID couldn't be found so database couldn't be updated!"

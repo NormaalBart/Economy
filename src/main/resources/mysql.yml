@@ -1,0 +1,8 @@
+pluginData:
+  host: 'localhost'
+  port: 3306
+  databaseName: 'economy'
+  user: 'root'
+  password: ''
+  #This should be an unique identifier for the server. Every server named the same will have the same economy.
+  serverName: 'Testserver'

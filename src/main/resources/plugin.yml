@@ -1,0 +1,18 @@
+name: Economy
+version: 0.0.1
+main: me.bartvv.economy.Economy
+author: Bart // NormaalBart
+softdepend: [Vault]
+commands:
+  balance:
+    aliases: [bal, money]
+    description: Balance command
+  baltop:
+    aliases: [balancetop]
+    description: Balancetop command
+  pay:
+    description: Pay command
+  economy:
+    aliases: [eco]
+  migratecoessentials:
+    aliases: [mee]
